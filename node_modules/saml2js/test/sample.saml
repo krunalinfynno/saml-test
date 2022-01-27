@@ -1,0 +1,88 @@
+<saml2p:Response ID="413be1b7-ac2d-4324-a359-998935f11a66" IssueInstant="2013-04-12T15:43:42.389Z" Version="2.0" xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol">
+  <saml2p:Status>
+    <saml2p:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+  </saml2p:Status>
+  <saml2:Assertion ID="SamlAssertion-25171a8736ed098dde8659e5ba250b5f" IssueInstant="2013-04-19T20:16:07.090Z" Version="2.0" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion">
+    <saml2:Issuer Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">issuer.example.com</saml2:Issuer>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+      <ds:SignedInfo>
+        <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <ds:Reference URI="#SamlAssertion- 25171a8736ed098dde8659e5ba250b5f">
+          <ds:Transforms>
+            <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+          </ds:Transforms>
+          <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <ds:DigestValue>VLIECSLwNnRpczRvI IUcGuospVk=</ds:DigestValue>
+        </ds:Reference>
+      </ds:SignedInfo>
+      <ds:SignatureValue>m3nxFPAc
+P3acP/Eg9at2jf/HaEn50vVgq4jl40BGWsGWdq97x2IlBzBtMv5aOxWnrx2hZmiDs8uQVK+P5YUp
+CPZxo3ki3NdxL7et7wTRas27XgZei2oVn8lxHsiNoBkS5DDBdCBxOOOvrxHmpAw38J6+uQ8w9
+KufOZKJwXpt8EKhi1dqje6t/s3jY3yYPQird9NXRiXU8uKnQEki/11/zOoBrcrlXl9isF7JB6NkgWp</ds:SignatureValue>
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509SubjectName>CN=issuer.example.com,OU=ffx,OU=ffe,O=example,L=Herndon,ST=VA,C=US</X509SubjectName>
+          <X509Certificate>MIIDqTCCApGgAwIBAgIERfXhazANBgkqhkiG9w0BAQsFADCBhDELMAk
+GA1UEBhMCVVMxCzAJBgNVBAgTAlZBMRAwDgYDVQQHEwdIZXJuZG9uMRMwEQYDV
+QQKEwpjZ2lmZWRlcmFsMQwwCgYDVQQLEwNmZmUxDDAKBgNVBAsTA2ZmeDElMCM
+GA1UEAxMcZmZ4LWZmZS13Ny0xNS5jZ2lmZWRlcmFsLmNvbTAeFw0xMzA0MTgxODA0N
+DhaFw0yMzAyMjUxODA0NDhaMIGEMQswCQYDVQQGEwJVUzELMAkGA1UECBMCVkEx
+EDAOBgNVBAcTB0hlcm5kb24xEzARBgNVBAoTCmNnaWZlZGVyYWwxDDAKBgNVBAsT
+A2ZmZTEMMAoGA1UECxMDZmZ4MSUwIwYDVQQDExxmZngtZmZlLXc3LTE1LmNnaWZl
+ZGVyYWwuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuXiXhbS4Nb9n
+IKAxC5rsUk/bivpvsCcc4QQbqNG+CFFIPnZi1QUAOmUm7cm/Pcn2nvmXf6PTLfi3sVgrpxfsN/3
+TpCKxYTN87fKbE0fQLLmLjVFu6pUsU7ZsAcKb66/PynkoweUbBhAMgR1h3Q01SnEcN6eD0D
+751O720YlV/pcZFzTdAjU2H2EFRAUxO395+/iMCkm9iD+Plb84hy3HhBqJUuMr2KlCDgkLHYb
+kfUWZabbNKkZWp51q+5oeRCKXhCYjWQGbwxfQeo0ODV95IJdWryFJB8E5CVkwHbo7guNh
+5BAzNGtYix0VrKJkvXd/l0CRi8d5yyeR56bdhSoOGQIDAQABoyEwHzAdBgNVHQ4EFgQUeda/
+7pq6i+1iRvGKMnJuP0FeX/kwDQYJKoZIhvcNAQELBQADggEBABn2/003wPonfGX+gAjSaQC
+dtnqs0FAZCc7NLEE3tJSmmhHF2Mr45PkiA01fsxTqV9rrdfyIu7Jtl0Y3/rVLBuZyUftAWxpAZyFT
+68Nw0/Kzc1NyyM3TN6eYRSvfOZHBlrwKCG1iExqmG3ucQtarEJvY/It6PMdWb3WLqLzD//2JbI
+Ijz9Sq87TkSPvFyDzrS7OlmeOgfOHV6yVjXDzB9XPRMHm9bo0qJZG1apI2M6Sph0imG8Wo/fm Ys1hWdMr9z5uTvB9g5ALL/AQOvwJBvdVo+qszOAy2wv4uuy0eIoJRMYO7KHEaUqRc5kbeKw
+rw4I2hUysIQwnxZ5L0MaTpo8Q=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </ds:Signature>
+    <saml2:Subject>
+      <saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified" NameQualifier="">test</saml2:NameID>
+      <saml2:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:sender-vouches">
+        <saml2:NameID>CN=issuer.example.com, OU=ffx, OU=ffe, O=example, L=Herndon, ST=VA, C=US</saml2:NameID>
+      </saml2:SubjectConfirmation>
+    </saml2:Subject>
+    <saml2:Conditions NotBefore="2013-04-19T20:14:08.437Z" NotOnOrAfter="2013-04- 19T20:21:08.437Z"/>
+    <saml2:AttributeStatement>
+      <saml2:Attribute Name="Information Exchange System ID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+        <saml2:AttributeValue>12121212</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="State Exchange Code" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+        <saml2:AttributeValue>MD0</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="Partner Assigned Consumer ID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+        <saml2:AttributeValue>1234</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="FFE Assigned Consumer ID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+        <saml2:AttributeValue>6ad66f44-d7f3-4ec1-b832-bb769749ff1c</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="User Type" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname- format:unspecified">
+        <saml2:AttributeValue>Consumer</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="FFE User ID" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname- format:unspecified">
+        <saml2:AttributeValue>john.doe@email.com</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="Transfer Type" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname- format:unspecified">
+        <saml2:AttributeValue>Completed Application</saml2:AttributeValue>
+      </saml2:Attribute>
+      <saml2:Attribute Name="Exception Reason" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+        <saml2:AttributeValue/>
+      </saml2:Attribute>
+    </saml2:AttributeStatement>
+    <saml2:AuthnStatement AuthnInstant="2013-04-12T15:43:42.328Z" SessionIndex="session#1" SessionNotOnOrAfter="2013-04-12T15:43:42.328Z">
+      <saml2:SubjectLocality Address="1234 Fishy LN, PEORIA, IL 20190" DNSName="2.175.111.190"/>
+      <saml2:AuthnContext>
+        <saml2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password</saml2:AuthnContextClassRef>
+      </saml2:AuthnContext>
+    </saml2:AuthnStatement>
+  </saml2:Assertion>
+</saml2p:Response>

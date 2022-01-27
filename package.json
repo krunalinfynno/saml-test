@@ -1,0 +1,14 @@
+{
+  "name": "saml-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "helmet": "^5.0.2",
+    "passport": "^0.5.2",
+    "passport-saml": "^3.2.1",
+    "saml2js": "^0.1.2"
+  }
+}
